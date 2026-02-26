@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IV Tech ERP - Sistema de Gestão</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 80px 40px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #2a5298;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1e3c72;
+        }
+
+        .features {
+            padding: 60px 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #2a5298;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .about {
+            padding: 60px 40px;
+            background-color: #e9edf5;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media(max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>IV Tech ERP</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Funcionalidades</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Sistema de Gestão para Pequenos Negócios</h2>
+    <p>Controle suas vendas, produtos, clientes e pagamentos em um único lugar.</p>
+    <a href="#" class="btn">Começar Agora</a>
+</section>
+
+<section class="features">
+    <div class="card">
+        <h3>Cadastro de Produtos</h3>
+        <p>Gerencie estoque, preços e informações dos seus produtos facilmente.</p>
+    </div>
+
+    <div class="card">
+        <h3>Cadastro de Clientes</h3>
+        <p>Organize seus clientes com nome, telefone e histórico de compras.</p>
+    </div>
+
+    <div class="card">
+        <h3>Controle de Vendas</h3>
+        <p>Registre vendas e acompanhe o faturamento diário e mensal.</p>
+    </div>
+
+    <div class="card">
+        <h3>Formas de Pagamento</h3>
+        <p>Registre pagamentos via Pix, boleto ou dinheiro.</p>
+    </div>
+</section>
+
+<section class="about">
+    <h2>Desenvolvido por Iasmim Vitória</h2>
+    <p>Estudante do curso Técnico em Informática - Jacinto/MG</p>
+</section>
+
+<footer>
+    © 2026 IV Tech ERP - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
